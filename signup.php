@@ -27,6 +27,22 @@ the registered user. -->
     </div>
   </div>
   <br/>
+  <div class="row">
+            <label class="col-sm-2 col-form-label">Gender</label>
+            <div class="col-sm-5">
+            <div class="radio-inline">
+                <input type="radio" name="gridRadios1" id="checkrads_11">
+                <label for="checkrads_11">Male</label>
+            </div>
+            </div>
+            <div class="col-sm-5">
+            <div class="radio-inline">
+                <input type="radio" name="gridRadios1" id="checkrads_12" checked>
+                <label for="checkrads_12">Female</label>
+            </div>
+            </div>
+        </div>
+<br/>
   <div class="form-group row">
     <label for="pass" class="col-sm-2 col-form-label">Password</label>
     <div class="col-sm-10">
@@ -64,7 +80,8 @@ the registered user. -->
       <input required type="text" class="form-control" placeholder="Contact #2">
     </div>
   </div>
-  
+  <br/>
+  <button type="submit" name="submit" class="btn btn-primary w-100" >Submit</button>
   <br/><br/><br/>
 </form>
 </div>
