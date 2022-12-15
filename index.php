@@ -9,14 +9,26 @@ require_once "includes/header.php";
     </div>
    <div class="home_section one" id="about-us">
         <h1>Online Training Sessions</h1>
-        <img src="img/zoom logo.png" style="width: 60px; margin: 0px 20px;" > 
+        <br/>
+        <div class="style-img-row">
+  <div class="style-img-column">
+    <img src="img/zoom logo.png"  style="width:60%">
+  </div>
+  <div class="style-img-column">
+    <img src="img/google meets logo.png"  style="width: 60%">
+  </div>
+    </div>
+    <div class="home_section three" id="location">
+    <h1>Face To Face Sessions</h1>
+   <br/>
+    <h4>Location:</h4>
+    <br/>
+        <p> 4XPF+R5M, Gillette street, Linstead <br/> St Catherine, Jamaica</p>
         <h4>Hours:</h4>
         <p>Fridays 4:30 pm - 6:30 pm
            <br/> Saturdays 12:30pm - 2:30 pm
         </p>
-    </div>
-    <div class="home_section three" id="location">
-    <h1>Face To Face Sessions</h1>
+        
     </div>
    <div class="home_section four" id="location">
     <h1>Instructors</h1>
