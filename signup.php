@@ -11,10 +11,13 @@ require_once "includes/header.php";
 - A check to ensure that the same email is not already registered.
 - An action page thanking them for submitting their information which also triggers an email to
 the registered user. -->
-<br/>
+<div class="little-levites-logo-img"> 
+<a href="index.php"><img src="img/Little Levites.png" width="550px" height="300px" ></a>
+</div>
+    <br/> <br/>
 <h1 style="text-align: center;"> Sign Up</h1>
 <h4 style="text-align: center;">Please fill the form below accurately</h4>
-<br/><br/><br/><br/>
+<br/><br/><br/>
 <div class="form_styled">
 <form>
 <div class="row">
@@ -82,6 +85,6 @@ the registered user. -->
   </div>
   <br/>
   <button type="submit" name="submit" class="btn btn-primary w-100" >Submit</button>
-  <br/><br/><br/>
+  <br/><br/><br/><br/><br/>
 </form>
 </div>

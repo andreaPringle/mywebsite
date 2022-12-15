@@ -48,13 +48,18 @@ body {
       height: 40vh;
       
       text-align: center;
-      margin: 200px 10px;
+      margin: 0px 10px;
   }
   .about_section {
     width: 100vw;
     height: 40vh;
     margin: 80px 10px;
    
+  }
+  .home_section default{
+
+    object-fit: none;
+    object-position: 5px 10%;
   }
   .button {
     display: inline-block;
@@ -68,13 +73,11 @@ body {
     width: 270px;
     transition: all 0.5s;
     cursor: pointer;
-    margin: 5px;
-    margin: 0;
-  position: absolute;
+    margin: 70px;
   top: 50%;
   left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  -ms-transform: translate(-40%, -50%);
+  transform: translate(0%, -70%);
   }
   
   .button span {
@@ -132,7 +135,10 @@ form{
   clear: both;
   display: table;
 }
-
+.little-levites-logo-img{
+  object-position: 60px 60%;
+padding-left: 400px;
+}
   #foot { 
     position:fixed;
     left: 0;

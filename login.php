@@ -2,6 +2,7 @@
 $title = "Login";
 require_once "includes/header.php"; 
 ?>
+
 <br/><br/>
 <h1 style="text-align: center;"> Login</h1>
 <br/>
