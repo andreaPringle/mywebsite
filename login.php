@@ -1,6 +1,7 @@
 <?php 
 $title = "Login";
-require_once "includes/header.php"; 
+require_once "includes-mysite/header.php"; 
+require_once "db/conn_mysite.php"; 
 ?>
 
 <br/><br/>
@@ -23,4 +24,4 @@ require_once "includes/header.php";
   <br/>
   <button type="submit" name="submit" class="btn btn-primary w-100" >Submit</button>
 </form>
-<?php require_once "includes/footer.php"; ?>
+<?php require_once "includes-mysite/footer.php"; ?>

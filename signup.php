@@ -1,6 +1,7 @@
 <?php 
 $title = "Sign Up";
-require_once "includes/header.php"; 
+require_once "includes-mysite/header.php"; 
+require_once "db/conn_mysite.php"; 
 ?>
 
 
@@ -16,7 +17,7 @@ the registered user. -->
 </div>
     <br/> <br/>
 <h1 style="text-align: center;"> Sign Up</h1>
-<h4 style="text-align: center;">Please fill the form below accurately</h4>
+<h4 style="text-align: center;">Please fill in the form below accurately</h4>
 <br/><br/><br/>
 <div class="form_styled">
 
@@ -35,8 +36,8 @@ the registered user. -->
     <label for="gender" class="col-sm-2 col-form-label">Gender</label>
     <div class="col-sm-10">
     <select class="form-control" id="gender" name="gender">
-      <option>Male</option>
-      <option>Female</option>
+      <option value="1">Male</option>
+      <option value="2">Female</option>
     </select>
   </div>
   </div>
@@ -72,7 +73,7 @@ the registered user. -->
   <div class="form-group row">
     <label for="address" class="col-sm-2 col-form-label">Address</label>
     <div class="col-sm-10">
-      <input required type="text" class="form-control" id="address" name="address" placeholder="Address">
+      <input required type="text" class="form-control" id="home_address" name="home_address" placeholder="Address">
     </div>
   </div>
   <br/>
@@ -90,4 +91,4 @@ the registered user. -->
   <br/><br/><br/><br/><br/>
 </form>
 </div>
-<?php require_once "includes/footer.php"; ?>
+<?php require_once "includes-mysite/footer.php"; ?>

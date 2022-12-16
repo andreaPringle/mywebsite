@@ -1,6 +1,6 @@
 <?php 
 $title = "About Us";
-require_once "includes/header.php"; 
+require_once "includes-mysite/header.php"; 
 ?>
  <br/>
  <div class="about_section default" id="about">
@@ -20,4 +20,4 @@ require_once "includes/header.php";
 <h2 style="text-align: center;">Vision </h2>
     <p style="text-align: center;">To develop skilled gospel muscians for the Kingdom Duties</p>
     </div>
-<?php require_once "includes/footer.php"; ?>
+<?php require_once "includes-mysite/footer.php"; ?>

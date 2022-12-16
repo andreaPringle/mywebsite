@@ -2,7 +2,7 @@ body {
   
     font-family: Arial;
     position: relative;
-    overflow-x: hidden; 
+/*overflow-x: hidden; */
   }
  label{
     padding-left:60px;
