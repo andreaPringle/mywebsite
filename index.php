@@ -14,6 +14,26 @@ require_once "includes-mysite/header.php";
     </div>
     <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
     <hr class="hr-style">
+    <br/><br/><br/>
+ <div class="about_section default" id="about">
+<h1 style="text-align: center;">About Us</h1>
+<p style="text-align: center; font-size:larger;">Little Levites is a music school geared towards training upcoming gospel musicians. 
+    <br/> Founded by Andrea Pringle with burden to develop and retain an effective and consistent music ministry within churches   
+</p>
+</div>
+<br/>
+<div class="about_section one" id="mission">    
+<h1 style="text-align: center;"> Mission </h1>
+    <p style="text-align: center; font-size:larger;">Teach how to play Piano, Aux Keyboard, Organ, Bass, Drums, Acoustic Guitar and more
+</p>
+    </div>
+    <br/>
+    <div class="about_section two" id="vission">
+<h1 style="text-align: center;">Vision </h1>
+    <p style="text-align: center; font-size:larger;">To develop skilled gospel muscians for the Kingdom Duties</p>
+    </div>
+    <br/><br/><br/><br/><br/><br/><br/>
+    <hr class="hr-style">
     <br/>
    <div class="home_section one" id="about-us">
         <h1>Online Training Sessions</h1>
@@ -28,31 +48,66 @@ require_once "includes-mysite/header.php";
     </div>
     <br/>
     <hr class="hr-style">
-    <br/><br/><br/><br/><br/><br/><br/>
-    <div class="home_section three" id="location">
+    <br/><br/><br/>
+    <div class="home_section_three" id="home_section_three">
     <h1>Face To Face Sessions</h1>
    <br/><br/><br/>
-    <h3>Location:</h3>
+    <h2>Location:</h2>
     <br/>
-        <p> 4XPF+R5M, Gillette street, Linstead <br/> St Catherine, Jamaica</p>
+        <p style="font-size: large;"> 4XPF+R5M, Gillette street, Linstead <br/> St Catherine, Jamaica</p>
         <br/><br/>
-        <h3>Hours:</h3>
-        <p>Fridays 4:30 pm - 6:30 pm
+        <h2>Hours:</h2>
+        <p style="font-size: large;">Fridays 4:30 pm - 6:30 pm
            <br/> Saturdays 12:30 pm - 2:30 pm
         </p>
-        
     </div>
-    <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+    <br/><br/><br/>
     <hr class="hr-style">
     <br/>
-   <div class="home_section four" id="location">
+   <div class="home_section five" id="home_section five">
+    <h1>Testimonials</h1>
+    <br/>
+    <div class="column-2">
+   <blockquote>Since I started taking piano lessons from Julian, 
+    the way I think and play has dramatically changed!</blockquote>
+    </div>
+    <div class="column-2">
+    <blockquote>I recommend these classes to all, from beginners to advance players</blockquote>
+    </div>
+    <div class="column-2">
+    <blockquote>I am working through the beginner lessons with my son ,Zac, who is 11 . 
+      I found that some teachers adopt a very basic approach when teaching beginners or 
+      young students especially - Sean doesn't hold back ! 
+      His lessons are challenging but very rewarding - 
+      he teaches everything you need to know to advance quickly ! 
+      Zac is buzzing to be able to really play piano rather than just a few simple exercises. 
+      We can't wait to progress and PWJ is a one stop shop in terms of the content he 
+      has from beginner to advanced so we expect to be with you guys for the long haul! 
+      All in All - Great Value!y</blockquote>
+    </div>
+    <div class="column-2">
+    <blockquote>I am very happy that I signed up for Little Levites. It gives me structure with the Learning Tracks, and inspiration from other students. 
+      Great teachers, great courses, great community!</blockquote>
+    </div>
+    <div class="column-2">
+    <blockquote>Who would have taught I would be a pro organ play. Look at where I am at now!</blockquote>
+    </div>
+    <div class="column-2">
+    <blockquote>I just started the Bass Guitar course two weeks ago and I am delighted with the materials and the level of the teachers. 
+      All of them are excellent musicians and music educators. 🎵</blockquote>
+    </div>
+   </div>
+   
+    <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+    <hr class="hr-style">
+    <br/>
+   <div class="home_section four" id="home_section four">
     <h1>Instructors</h1>
     <br/>
     <div class="img-row">
   <div class="column">
   
     <img src="img/sean wilson.jpg" alt="Sean Wilson" style="width:100%">
- 
     <p style="text-align: center; font-style:italic;">Sean Wilson- PIANO</p>
     <p style="text-align: center; font-style:italic;">I will teach you to play Gospel Piano like the Pros.
 Stop feeling confused and start growing again!</p>
@@ -86,7 +141,9 @@ Stop feeling confused and start growing again!</p>
     <p style="text-align: center; font-style:italic;">Daniel Bernard- DRUMS</p>
     <p style="text-align: center; font-style:italic;">"I hope to inspire, educate, and help others to get involved in music ministry as well as fuel a passion for drums in my peers."</p>
   </div>
-<br/> 
-   <br/><br/><br/><br/><br/>
+   </div>
+   </div>
+   <br/><br/><br/><br/><br/><br/><br/><br/><br/>
+   
 <?php require_once "includes-mysite/footer.php"; ?>
    

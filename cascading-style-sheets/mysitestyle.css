@@ -112,7 +112,7 @@ form{
   margin: 0px 390px;
 }
 .hr-style{
-  border: 1px solid #db0030;
+  border: 1px solid #000000;
 }
 .column {
   float: left;
@@ -122,7 +122,14 @@ form{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 50px;
 }
-
+.column-2 {
+  float: left;
+  width: 35%;
+  padding: 6px;
+  margin-bottom: 60px;
+  margin: 15px 5px;
+  padding-left: 170px;
+}
 /* Clearfix (clear floats) */
 .img-row::after {
   content: "";
@@ -149,7 +156,39 @@ padding-left: 400px;
 .card{
   margin: 15px 20px;
 }
+blockquote {
+  font-family: Georgia, serif;
+  font-size: 18px;
+  font-style: italic;
+  width: 500px;
+  margin: 0.25em 0;
+  padding: 0.35em 40px;
+  line-height: 1.45;
+  position: relative;
+  color: #383838;
+}
 
+blockquote:before {
+  display: block;
+  padding-left: 10px;
+  content: "\201C";
+  font-size: 80px;
+  position: absolute;
+  left: -20px;
+  top: -20px;
+  color: #7a7a7a;
+}
+
+blockquote cite {
+  color: #999999;
+  font-size: 14px;
+  display: block;
+  margin-top: 5px;
+}
+
+blockquote cite:before {
+  content: "\2014 \2009";
+}
   #foot { 
     position:fixed;
     left: 0;
