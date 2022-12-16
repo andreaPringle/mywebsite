@@ -13,6 +13,8 @@ require_once "includes/header.php";
     </span></button></a>
     </div>
     <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+    <hr class="hr-style">
+    <br/>
    <div class="home_section one" id="about-us">
         <h1>Online Training Sessions</h1>
         <br/><br/><br/><br/><br/><br/><br/>
@@ -24,21 +26,25 @@ require_once "includes/header.php";
     <img src="img/google meets logo.png"  style="width: 60%">
   </div>
     </div>
-    <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+    <br/>
+    <hr class="hr-style">
+    <br/><br/><br/><br/><br/><br/><br/>
     <div class="home_section three" id="location">
     <h1>Face To Face Sessions</h1>
    <br/><br/><br/>
-    <h4>Location:</h4>
+    <h3>Location:</h3>
     <br/>
         <p> 4XPF+R5M, Gillette street, Linstead <br/> St Catherine, Jamaica</p>
         <br/><br/>
-        <h4>Hours:</h4>
+        <h3>Hours:</h3>
         <p>Fridays 4:30 pm - 6:30 pm
            <br/> Saturdays 12:30 pm - 2:30 pm
         </p>
         
     </div>
-    <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+    <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+    <hr class="hr-style">
+    <br/>
    <div class="home_section four" id="location">
     <h1>Instructors</h1>
     <br/>
@@ -68,9 +74,6 @@ require_once "includes/header.php";
     <p>Daniel Bernard- DRUMS</p>
   </div>
 <br/> 
-<div class="home_section five" id="signup-button">
-
-    </div>
    <br/><br/><br/><br/><br/>
 <?php require_once "includes/footer.php"; ?>
    

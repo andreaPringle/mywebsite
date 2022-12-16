@@ -21,6 +21,6 @@
   
   </div>
 -->
-  <a href="login.php" class="split-2">Login</a>
+  <a href="login.php" class="split-2">LOGIN</a>
 </div>
     </header>
