@@ -57,8 +57,15 @@ require_once "includes-mysite/header.php";
         <p style="font-size: large;"> 4XPF+R5M, Gillette street, Linstead <br/> St Catherine, Jamaica</p>
         <br/><br/>
         <h2>Hours:</h2>
+        <br/>
         <p style="font-size: large;">Fridays 4:30 pm - 6:30 pm
            <br/> Saturdays 12:30 pm - 2:30 pm
+        </p> 
+        <br/> <br/>
+        <h2>Contact Us </h2>
+        <br/>
+        <p style="font-size: large;">TELEPHONE:  876-970-8846 or 876-503-4458
+           <br/> EMAIL:  liitle_Levites90@gmail.com
         </p>
     </div>
     <br/><br/><br/>
@@ -75,15 +82,15 @@ require_once "includes-mysite/header.php";
     <blockquote>I recommend these classes to all, from beginners to advance players</blockquote>
     </div>
     <div class="column-2">
-    <blockquote>I am working through the beginner lessons with my son ,Zac, who is 11 . 
+    <blockquote>I am working through the beginner lessons with my son, Zac, who is 11. 
       I found that some teachers adopt a very basic approach when teaching beginners or 
-      young students especially - Sean doesn't hold back ! 
+      young students especially, however Sean doesn't hold back ! 
       His lessons are challenging but very rewarding - 
       he teaches everything you need to know to advance quickly ! 
       Zac is buzzing to be able to really play piano rather than just a few simple exercises. 
-      We can't wait to progress and PWJ is a one stop shop in terms of the content he 
+      We can't wait to progress and Little Levites is a one stop shop in terms of the content he 
       has from beginner to advanced so we expect to be with you guys for the long haul! 
-      All in All - Great Value!y</blockquote>
+      All in All - Great Value!</blockquote>
     </div>
     <div class="column-2">
     <blockquote>I am very happy that I signed up for Little Levites. It gives me structure with the Learning Tracks, and inspiration from other students. 
