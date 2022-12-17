@@ -2,6 +2,8 @@
 $title = "Sign Up";
 require_once "includes-mysite/header.php"; 
 require_once "db/conn_mysite.php"; 
+
+$results = $crud->getGender();
 ?>
 
 
@@ -36,8 +38,10 @@ the registered user. -->
     <label for="gender" class="col-sm-2 col-form-label">Gender</label>
     <div class="col-sm-10">
     <select class="form-control" id="gender" name="gender">
-      <option value="1">Male</option>
-      <option value="2">Female</option>
+    <?php 
+        while($r=$results->fetch(PDO::FETCH_ASSOC)) { ?>
+          <option value="<?php echo $r["gender_id"] ?> "><?php echo $r["name"] ?> </option>
+        <?php } ?>
     </select>
   </div>
   </div>

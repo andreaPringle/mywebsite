@@ -13,11 +13,11 @@
     <header>
     <div class= "nav-style">
     <!--<a class="split-1" href="index.php">LITTLE LEVITES</a> -->
-    <!--<div class = "nav_section"> 
-    <a  href="aboutus.php">About Us</a>
+    <div class = "nav_section"> 
+    <!--<a  href="aboutus.php">About Us</a>
   <a href="#gallery"> Gallery</a>
-  <a href="#location">Location</a>
-  <a href="menu.php">Menu</a>
+  <a href="#location">Location</a> -->
+  <a href="admin_view_records.php">View Students</a>
   
   </div>
 -->
