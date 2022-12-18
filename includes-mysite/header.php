@@ -1,3 +1,7 @@
+<?php 
+//This includes the session file. This file contains code that starts/resumes a session. 
+//By having it in the header file, it will be included on every page, allowing session capability to be used on every page across the website.
+include_once 'includes-mysite/session.php'?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,7 +16,7 @@
 <body>
     <header>
     <div class= "nav-style">
-    <!--<a class="split-1" href="index.php">LITTLE LEVITES</a> -->
+    <a class="split-1" href="index.php">Home</a> 
     <div class = "nav_section"> 
     <!--<a  href="aboutus.php">About Us</a>
   <a href="#gallery"> Gallery</a>

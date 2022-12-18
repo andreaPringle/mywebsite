@@ -11,7 +11,7 @@ if(!isset($_GET["id"])){
   } else{
     $id= $_GET["id"];
 $students = $crud->getStudentDetails($id);
-  }
+  
 ?>
 <br/>  <br/> 
     <h1 class="text-center">Edit Students Record</h1>
@@ -23,9 +23,9 @@ $students = $crud->getStudentDetails($id);
 <h1 style="text-align: center;"> Sign Up</h1>
 <h4 style="text-align: center;">Please fill in the form below accurately</h4>
 <br/><br/><br/>
-<div class="form_styled">
 
-<form method="post" action="response.php">
+<form method="post" action="admin_edit_post.php">
+
 <input type="hidden" name= "id" value="<?php echo $students["student_id"]?>"/>
 <div class="row">
 <label class="col-sm-2 col-form-label">Full Name</label>
@@ -108,7 +108,7 @@ $students = $crud->getStudentDetails($id);
   <br/>
   <a href="admin_view_records.php" class="btn btn-default" > Back to List </a>
   <button type="submit" name="submit" class="btn btn-success" >Save Changes</button>
-  <br/><br/><br/><br/><br/>
 </form>
-</div>
+<?php }?>
+<br/><br/><br/><br/><br/>
 <?php require_once "includes-mysite/footer.php"; ?>

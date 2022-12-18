@@ -189,6 +189,10 @@ blockquote cite {
 blockquote cite:before {
   content: "\2014 \2009";
 }
+iframe{
+ margin:  20px 410px;
+ margin-top: 5px;
+}
   #foot { 
     position:fixed;
     left: 0;
@@ -197,5 +201,7 @@ blockquote cite:before {
     background-color:black;
     color: white;
     text-align: center;
+    
  }
+ 
  

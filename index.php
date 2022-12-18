@@ -52,11 +52,11 @@ require_once "includes-mysite/header.php";
     <div class="home_section_three" id="home_section_three">
     <h1>Face To Face Sessions</h1>
    <br/><br/><br/>
-    <h2>Location:</h2>
+    <h2>Location</h2>
     <br/>
         <p style="font-size: large;"> 4XPF+R5M, Gillette street, Linstead <br/> St Catherine, Jamaica</p>
         <br/><br/>
-        <h2>Hours:</h2>
+        <h2>Hours</h2>
         <br/>
         <p style="font-size: large;">Fridays 4:30 pm - 6:30 pm
            <br/> Saturdays 12:30 pm - 2:30 pm
@@ -114,37 +114,37 @@ require_once "includes-mysite/header.php";
     <div class="img-row">
   <div class="column">
   
-    <img src="img/sean wilson.jpg" alt="Sean Wilson" style="width:100%">
+    <a href="Sean-Wilson-Info.php"> <img src="img/sean wilson.jpg" alt="Sean Wilson" style="width:100%"> </a>
     <p style="text-align: center; font-style:italic;">Sean Wilson- PIANO</p>
     <p style="text-align: center; font-style:italic;">I will teach you to play Gospel Piano like the Pros.
 Stop feeling confused and start growing again!</p>
   </div>
   <div class="column">
-    <img src="img/Julian-Tabares.jpg" alt="Julian Tabares" style="width:100%">
+    <a href="Julian-Tabares-Info.php"><img src="img/Julian-Tabares.jpg" alt="Julian Tabares" style="width:100%"></a>
     <p style="text-align: center; font-style:italic;">Julian Tabares- AUX KEYBOARD</p>
     <p style="text-align: center; font-style:italic;">Julian started getting involved in the music ministry at the age of 11 and started directing bands at the age of 14. 
         <br/> Julian now makes his profession from music full time</p>
   </div>
   <div class="column">
-    <img src="img/jaydon arnold.jpg" alt="Jaydon Arnold" style="width:100%">
+    <a href="Jaydon-Arnold-Info.php"><img src="img/jaydon arnold.jpg" alt="Jaydon Arnold" style="width:100%"></a>
     <p style="text-align: center; font-style:italic;">Jaydon Arnold- ORGAN</p>
     <p style="text-align: center; font-style:italic;">"I like to teach people how to express themselves through the language of music. 
       <br/>Just as you talk and listen freely, music can be enjoyed and played in the same way."</p>
   </div>
   <div class="column">
-    <img src="img/Travis-Dykes.jpg" alt="Travis Dykes" style="width:100%">
+    <a href="Travis-Dykes-Info.php"><img src="img/Travis-Dykes.jpg" alt="Travis Dykes" style="width:100%"></a>
     <p style="text-align: center; font-style:italic;">Travis Dykes- BASS</p>
     <p style="text-align: center; font-style:italic;">Travis is an endorsed Fender PLAY Bass instructor, music school owner and online music educator. 
       <br/>Aside from teaching, Travis also works as a touring/studio musician, music director, arranger, and producer.</p>
   </div>
   <div class="column">
-    <img src="img/israel houghton.jpeg" alt="Israel Houghton" style="width:100%">
+    <a href="Israel-Houghton-Info.php"><img src="img/israel houghton.jpeg" alt="Israel Houghton" style="width:100%"></a>
     <p style="text-align: center; font-style:italic;" >Israel Houghton- ACOUSTIC GUITAR</p>
     <p style="text-align: center; font-style:italic;"> "I believe worship has the power to change. The environment has the power to change a life.
       <br/> People need hope. I want to give good news to people." </p>
   </div>
   <div class="column">
-     <img src="img/Daniel-Bernard-copy-2.jpg" alt="Daniel Bernard" style="width:100%">
+     <a href="Daniel-Bernard-Info.php"><img src="img/Daniel-Bernard-copy-2.jpg" alt="Daniel Bernard" style="width:100%"></a>
     <p style="text-align: center; font-style:italic;">Daniel Bernard- DRUMS</p>
     <p style="text-align: center; font-style:italic;">"I hope to inspire, educate, and help others to get involved in music ministry as well as fuel a passion for drums in my peers."</p>
   </div>

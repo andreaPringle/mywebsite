@@ -34,8 +34,8 @@ class crud{
 public function editStudents($id, $FirstName, $LastName, $gender, $age, $pass1, $pass2, $inputEmail3, $home_address, $tel1, $tel2){
     try {
         $sql = "UPDATE `students` SET `fname` = :FirstName,  `lname`= :LastName, `gender_id`=:gender, 
-        `age`=:age, `password`=:pass1,`confirm__password`=:pass2, `email`=:inputEmail3, `address`=:home_address, `contact_1`=:tel1, `contact_2` =:tel2
-        WHERE `student_id`= :id ";
+        `age`=:age, `password`=:pass1,`confirm__password`=:pass2, `email`=:inputEmail3, `address`=:home_address, 
+        `contact_1`=:tel1, `contact_2` =:tel2 WHERE `student_id`= :id ";
         $stmt= $this->db->prepare($sql);
 
         $stmt->bindparam(":id", $id);

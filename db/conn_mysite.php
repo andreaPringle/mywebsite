@@ -19,5 +19,9 @@ $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 }
 
 require_once "crud_mysite.php";
+require_once 'user.php';
 $crud = new crud($pdo);
+$user = new user($pdo);
+
+$user->insertUser("liitle-levite_admin","password");
 ?>
