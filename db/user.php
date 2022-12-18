@@ -18,8 +18,8 @@ class user{
                 //prepare the sql statement for execution
                 $stmt = $this->db->prepare($sql);
                 // bind all placeholders to the actual values
-                $stmt->bindparam(':username',$username);
-                $stmt->bindparam(':password',$new_password);
+                $stmt->bindparam(":username",$username);
+                $stmt->bindparam(":password",$new_password);
                 
                 // execute statement
                 $stmt->execute();
@@ -37,8 +37,8 @@ class user{
         try{
             $sql = "select * from users where username = :username AND password = :password ";
             $stmt = $this->db->prepare($sql);
-            $stmt->bindparam(':username', $username);
-            $stmt->bindparam(':password', $password);
+            $stmt->bindparam(":username", $username);
+            $stmt->bindparam(":password", $password);
             $stmt->execute();
             $result = $stmt->fetch();
             return $result;
@@ -51,7 +51,7 @@ class user{
         try{
             $sql = "select count(*) as num from users where username = :username";
             $stmt = $this->db->prepare($sql);
-            $stmt->bindparam(':username',$username);
+            $stmt->bindparam(":username",$username);
             
             $stmt->execute();
             $result = $stmt->fetch();

@@ -50,12 +50,15 @@ require_once "includes-mysite/header.php";
     <hr class="hr-style">
     <br/><br/><br/>
     <div class="home_section_three" id="home_section_three">
-    <h1>Face To Face Sessions</h1>
+    <h1 style="font-style: italic;">Face To Face Sessions</h1>
    <br/><br/><br/>
-    <h2>Location</h2>
+    <h2 >Location</h2>
     <br/>
-        <p style="font-size: large;"> 4XPF+R5M, Gillette street, Linstead <br/> St Catherine, Jamaica</p>
-        <br/><br/>
+    <img src="img/Linstead-Pentecostal-Tabernacle.jpg" style= "
+  height: 350px; object-fit: cover; width:40% ; border-radius: 8px; filter: drop-shadow(8px 8px 10px grey);">
+        
+    <p style="font-size: large;"><br/> 66-72, 1/2  Wildman St<br/> Kingston, Jamaica</p>
+        <br/><br/><br/>
         <h2>Hours</h2>
         <br/>
         <p style="font-size: large;">Fridays 4:30 pm - 6:30 pm

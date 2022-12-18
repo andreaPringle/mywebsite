@@ -9,7 +9,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
   $password = $_POST["password"];
   $new_password = md5($password.$username);
 
-$result= $users->getUser($username, $password);
+$result= $user->getUser($username, $password);
   if(!$result){
       echo '<div class="alert alert-danger">Username or Password is incorrect! Please try again. </div>';
   }else{
