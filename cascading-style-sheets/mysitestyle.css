@@ -26,6 +26,10 @@ body {
     background-color: #ddd;
     color: #333;
   }
+  .nav_section{
+    display:inline-flex;
+    padding: 0px 400px;
+  }
   
   /* Create a right-aligned (split) link inside the navigation bar */
   .nav-style a.split-1 {
@@ -42,9 +46,15 @@ body {
     font-weight:500;
     color: white;
   }
-  .nav_section{
-    display:inline-flex;
-    padding: 0px 300px;
+  .nav-style a.split-3{
+    float: right;
+    background-color:  #004d98;
+    padding: 15px 32px;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight:500;
+    color: white;
+
   }
  
     .home_section {
@@ -108,6 +118,49 @@ body {
     opacity: 1;
     right: 0;
   }
+  .button-2 {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #edbb00;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 15px;
+    width: 284px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 70px 570px;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-40%, -50%);
+  transform: translate(0%, -70%);
+  }
+  
+  .button-2 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button-2 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button-2 span {
+    padding-right: 25px;
+  }
+  
+  .button-2:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
 form{
   margin: 0px 390px;
 }
@@ -129,6 +182,9 @@ form{
   margin-bottom: 60px;
   margin: 15px 5px;
   padding-left: 170px;
+}
+.table{
+  margin: 0px 5px;
 }
 /* Clearfix (clear floats) */
 .img-row::after {

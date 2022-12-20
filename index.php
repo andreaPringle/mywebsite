@@ -67,7 +67,7 @@ require_once "includes-mysite/header.php";
         <br/> <br/>
         <h2>Contact Us </h2>
         <br/>
-        <p style="font-size: large;">TELEPHONE:  876-970-8846 or 876-503-4458
+        <p style="font-size: large;">TELEPHONE:  876-970-8846 or 876-503-4458 (WhatsApp)
            <br/> EMAIL:  liitle_Levites90@gmail.com
         </p>
     </div>

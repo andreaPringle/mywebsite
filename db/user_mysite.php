@@ -14,12 +14,12 @@ class user{
             } else{
                 $new_password = md5($password.$username);
                 // define sql statement to be executed
-                $sql = "INSERT INTO users (username,password) VALUES (:username,:password)";
+                $sql = "INSERT INTO `users`( `username`, `password`)VALUES (:username, :pass)";
                 //prepare the sql statement for execution
                 $stmt = $this->db->prepare($sql);
                 // bind all placeholders to the actual values
                 $stmt->bindparam(":username",$username);
-                $stmt->bindparam(":password",$new_password);
+                $stmt->bindparam(":pass",$new_password);
                 
                 // execute statement
                 $stmt->execute();
@@ -33,7 +33,7 @@ class user{
         }
     
     }
-    public function getUser($username,$password){
+    public function getUser($username, $password){
         try{
             $sql = "select * from users where username = :username AND password = :password ";
             $stmt = $this->db->prepare($sql);

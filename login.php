@@ -6,10 +6,10 @@ require_once "db/conn_mysite.php";
 //If data was submitted via a form POST request, then...
 if($_SERVER['REQUEST_METHOD'] == 'POST'){
   $username = strtolower(trim($_POST["username"]));
-  $password = $_POST["password"];
+  $password = $_POST["pass"];
   $new_password = md5($password.$username);
 
-$result= $user->getUser($username, $password);
+  $result = $user1->getUser($username,$new_password);
   if(!$result){
       echo '<div class="alert alert-danger">Username or Password is incorrect! Please try again. </div>';
   }else{

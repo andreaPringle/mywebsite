@@ -9,13 +9,13 @@ $results = $crud->getStudents();
 <a href="index.php"><img src="img/Little Levites.png" width="550px" height="300px" ></a>
 </div>
 <br/><br/>  <br/> 
-<h1 class="text-center">Student Records</h1>
+<h1 class="text-center"> List of Students </h1>
     <br/>  <br/>  
     <table class="table">
         <tr style="text-align: center;">
             <th>ID</th>
-            <th>Firstname</th>
-            <th>Lastname</th> 
+            <th>First Name</th>
+            <th>Last Name</th> 
             <th>Gender</th>
             <th>Age</th>
             <th>Email</th>
@@ -43,6 +43,9 @@ $results = $crud->getStudents();
             </td>
         </tr>
        <?php }?>
-       </table> 
+       </table>
+   
+        <a href="signup.php"><button class="button-2" style="vertical-align:middle"><span>Add a new record
+    </span></button></a> 
     <br/> <br/>  
 <?php require_once "includes-mysite/footer.php"; ?>
