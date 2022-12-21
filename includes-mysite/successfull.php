@@ -1,3 +1,3 @@
 <div class="alert alert-success" role="alert">
-  <h1> Registration has been completed. Please proceed to login </h1>
+  <h1 style="text-align: center;"> Registration was succesful. Please proceed to login </h1>
 </div>

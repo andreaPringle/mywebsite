@@ -17,7 +17,7 @@ include_once 'includes-mysite/session.php'?>
     <header>
     <div class= "nav-style">
     <a class="split-1" href="index.php">Home</a> 
-    
+    <a href="little-levite_user_profle.php">Profile</a>
   <?php 
               if(!isset($_SESSION["userid"])){
           ?>
@@ -26,9 +26,9 @@ include_once 'includes-mysite/session.php'?>
     <div class = "nav_section"> 
     <!--<a  href="aboutus.php">About Us</a>
   <a href="#gallery"> Gallery</a>
-  <a href="#location">Location</a>
+  <a href="#location">Location</a>-->
 
-  <a href="admin_view_records.php">View Students</a>  -->
+   
  
             <a style="font-weight: bolder;  font-style: italic; color: #edbb00;" href="admin_view_records.php"> Welcome  <?php echo $_SESSION["username"] ?>
          (current)</a>

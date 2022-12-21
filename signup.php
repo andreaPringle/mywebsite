@@ -1,7 +1,6 @@
 <?php 
 $title = "Sign Up";
 require_once "includes-mysite/header.php"; 
-require_once "includes-mysite/authen_check.php";
 require_once "db/conn_mysite.php"; 
 
 $results = $crud->getGender();
@@ -24,7 +23,7 @@ the registered user. -->
 <br/><br/><br/>
 <div class="form_styled">
 
-<form method="post" action="response.php">
+<form method="post" action="little-levite_user_profle.php">
 <div class="row">
 <label class="col-sm-2 col-form-label">Full Name</label>
     <div class="col-sm-5">
@@ -92,6 +91,14 @@ the registered user. -->
     </div>
   </div>
   <br/>
+  <div class="form-group row">
+  <div class="custom-file">
+            <input type="file" accept="image/*" class="custom-file-input" id="avatar_pic" name="avatar_pic" >
+            <label class="custom-file-label" for="avatar_pic">Choose File</label>
+            <small id="avatar_pic" class="form-text text-danger">(Optional)</small>
+            </div>
+        </div>
+        <br/>
   <button type="submit" name="submit" class="btn btn-primary w-100" >Submit</button>
   <br/><br/><br/><br/><br/>
 </form>
