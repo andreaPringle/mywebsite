@@ -1,7 +1,8 @@
 <?php 
 $title = "Edit Record";
 require_once "includes-mysite/header.php"; 
-require_once "db/conn_mysite.php"; 
+require_once "includes-mysite/authen_check.php";
+require_once "db/conn_mysite.php";  
 
 $results = $crud->getGender();
 if(!isset($_GET["id"])){

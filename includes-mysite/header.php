@@ -16,7 +16,7 @@ include_once 'includes-mysite/session.php'?>
 <body>
     <header>
     <div class= "nav-style">
-    <!--<a class="split-1" href="index.php">Home</a> -->
+    <a class="split-1" href="index.php">Home</a> 
     
   <?php 
               if(!isset($_SESSION["userid"])){

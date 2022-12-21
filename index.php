@@ -1,6 +1,7 @@
 <?php 
 $title = "Index";
 require_once "includes-mysite/header.php"; 
+
 ?>
 <div class="nav_sections">
    <div class="home_section default" id="home">

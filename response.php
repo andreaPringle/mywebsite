@@ -1,6 +1,7 @@
 <?php 
 $title = "Response";
 require_once "includes-mysite/header.php"; 
+require_once "includes-mysite/authen_check.php";
 require_once "db/conn_mysite.php"; 
 if(isset($_POST["submit"])){
 

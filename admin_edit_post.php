@@ -1,4 +1,5 @@
 <?php 
+require_once "includes-mysite/authen_check.php";
 require_once "db/conn_mysite.php"; 
 
 //gets values from post operation
