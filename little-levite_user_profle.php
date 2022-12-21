@@ -16,8 +16,8 @@ if(isset($_POST["submit"])){
     $tel1= $_POST["tel1"];
     $tel2= $_POST["tel2"];
 
-    $orig_file =$_FILES['avatar_pic']['tmp_name'];
-    $ext = pathinfo($_FILES['avatar_pic']['name'], PATHINFO_EXTENSION);
+    $orig_file = $_FILES["avatar_pic"]["tmp_name"];
+    $ext = pathinfo($_FILES["avatar_pic"]["name"], PATHINFO_EXTENSION);
     $target_dir = "uploads/";
     $destination = "$target_dir$tel1.$ext";
     move_uploaded_file($orig_file,$destination);
