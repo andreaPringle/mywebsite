@@ -91,13 +91,13 @@ the registered user. -->
     </div>
   </div>
   <br/>
-  <div class="form-group row">
-  <div class="custom-file">
-            <input type="file" accept="image/*" class="custom-file-input" id="avatar_pic" name="avatar_pic" >
-            <label class="custom-file-label" for="avatar_pic">Choose File</label>
-            <small id="avatar_pic" class="form-text text-danger">(Optional)</small>
+  
+  <div class="input-group mb-3">
+            <input type="file" accept="image/*" class="form-control" id="avatar_pic" name="avatar_pic" >
+            <label class="input-group-text" for="avatar_pic">Choose File</label>
+            <small id="avatar_pic" class="form-text text-danger"> &nbsp;(Optional)</small>
             </div>
-        </div>
+       
         <br/>
   <button type="submit" name="submit" class="btn btn-primary w-100" >Submit</button>
   <br/><br/><br/><br/><br/>

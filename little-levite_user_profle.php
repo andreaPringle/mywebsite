@@ -5,6 +5,7 @@ require_once "includes-mysite/header.php";
 require_once "db/conn_mysite.php"; 
 if(isset($_POST["submit"])){
 
+    
     $FirstName= $_POST["FirstName"];
     $LastName= $_POST["LastName"];
     $gender= $_POST["gender"];
@@ -15,14 +16,10 @@ if(isset($_POST["submit"])){
     $home_address= $_POST["home_address"];
     $tel1= $_POST["tel1"];
     $tel2= $_POST["tel2"];
+    $avatar_pic= $_POST["avatar_pic"];
 
-    $orig_file = $_FILES["avatar_pic"]["tmp_name"];
-    $ext = pathinfo($_FILES["avatar_pic"]["name"], PATHINFO_EXTENSION);
-    $target_dir = "uploads/";
-    $destination = "$target_dir$tel1.$ext";
-    move_uploaded_file($orig_file,$destination);
-
-    $isSucess = $crud->insertStudents($FirstName, $LastName, $gender, $age, $pass1, $pass2, $inputEmail3, $home_address, $tel1, $tel2, $destination);
+    $isSucess = $crud->insertStudents($FirstName, $LastName, $gender, $age, $pass1, $pass2, 
+    $inputEmail3, $home_address, $tel1, $tel2, $destination);
     $genderName = $crud->getGenderById($gender);
     if($isSucess){
       include "includes-mysite/successfull.php";

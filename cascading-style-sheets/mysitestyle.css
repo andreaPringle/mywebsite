@@ -23,38 +23,34 @@ body {
   }
   
   .nav-style a:hover {
-    background-color: #ddd;
+    
     color: #333;
   }
   .nav_section{
     display:inline-flex;
     padding: 0px 400px;
+    float: right;
   }
   
   /* Create a right-aligned (split) link inside the navigation bar */
   .nav-style a.split-1 {
-    float: left;
+    float: right;
     background-color:#db0030;
+    padding: 15px 32px;
+    border-radius: 55px;
+    font-size: 15px;
+    font-weight:500;
     color: white;
   }
+  
   .nav-style a.split-2 {
     float: right;
     background-color:  #004d98;
     padding: 15px 32px;
-    border-radius: 50px;
+    border-radius: 55px;
     font-size: 15px;
     font-weight:500;
     color: white;
-  }
-  .nav-style a.split-3{
-    float: right;
-    background-color:  #004d98;
-    padding: 15px 32px;
-    border-radius: 50px;
-    font-size: 15px;
-    font-weight:500;
-    color: white;
-
   }
  
     .home_section {
@@ -211,6 +207,13 @@ padding-left: 400px;
 }
 .card{
   margin: 15px 20px;
+  text-align: center;
+}
+.center-card{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 26%;
 }
 blockquote {
   font-family: Georgia, serif;

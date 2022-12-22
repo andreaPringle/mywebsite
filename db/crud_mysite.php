@@ -5,10 +5,13 @@ class crud{
     function __construct($conn){
         $this->db =$conn;
     }
-    public function insertStudents($FirstName, $LastName, $gender, $age, $pass1, $pass2, $inputEmail3, $home_address, $tel1, $tel2, $avatar_pic){
+    public function insertStudents($FirstName, $LastName, $gender, $age, $pass1, $pass2, $inputEmail3, 
+    $home_address, $tel1, $tel2, $avatar_pic){
         try {
-            $sql = "INSERT INTO `students`(`fname`, `lname`, `gender_id`, `age`, `password`, `confirm__password`, `email`, `address`, `contact_1`, `contact_2`, `avatar_pic`)
-            VALUES (:FirstName, :LastName, :gender, :age, :pass1, :pass2, :inputEmail3, :home_address, :tel1,:tel2, :avatar_pic)";
+            $sql = "INSERT INTO `students`(`fname`, `lname`, `gender_id`, `age`, `password`, 
+            `confirm__password`, `email`, `address`, `contact_1`, `contact_2`, `avatar_pic`)
+            VALUES (:FirstName, :LastName, :gender, :age, :pass1, :pass2, :inputEmail3, 
+            :home_address, :tel1,:tel2, :avatar_pic)";
             $stmt= $this->db->prepare($sql);
 
             
