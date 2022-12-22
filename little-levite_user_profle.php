@@ -13,9 +13,9 @@ if(isset($_POST["submit"])){
     $home_address= $_POST["home_address"];
     $tel1= $_POST["tel1"];
     $tel2= $_POST["tel2"];
-    $avatar_pic= $_POST["avatar_pic"];
+   
 
-    $orig_file = $_FILES["avatar_pic"];["tmp_name"];
+    $orig_file = $_FILES["avatar_pic"]["tmp_name"];
         $ext = pathinfo($_FILES["avatar_pic"]["name"], PATHINFO_EXTENSION);
         $target_dir = "uploads/";
         $destination = "$target_dir$tel1.$ext";
@@ -34,7 +34,18 @@ if(isset($_POST["submit"])){
   ?> 
   <br/>
   
-  <img src="<?php echo $destination; ?>" class="rounded-circle" style="width: 20%; height: 20%" />
-
+  <img src="<?php echo $destination; ?>" class="rounded-circle" 
+  style="display: block; margin-left: auto; margin-right: auto; width: 20%; height: 20% "/>
+  <div class="center-card"> 
+  <div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title"><?php echo $_POST["FirstName"]; echo" "; echo $_POST["LastName"]; ?></h5>
+    <p class="card-text">Gender:  <?php echo $genderName["name"]; ?></p>
+    <p class="card-text">Age: <?php echo $_POST["age"]; ?></p>
+    <p class="card-text">Email Address: <br/> <?php echo $_POST["inputEmail3"]; ?></p>
+    <p class="card-text">Contact Number:<br/> <?php echo $_POST["tel1"]; echo" | "; echo $_POST["tel2"]; ?></p>
+  </div>
+</div>
+  </div>
 <br/><br/>
 <?php require_once "includes-mysite/footer.php"; ?>

@@ -23,7 +23,7 @@ the registered user. -->
 <br/><br/><br/>
 <div class="form_styled">
 
-<form method="post" action="little-levite_user_profle.php">
+<form method="post" action="little-levite_user_profle.php" enctype="multipart/form-data">
 <div class="row">
 <label class="col-sm-2 col-form-label">Full Name</label>
     <div class="col-sm-5">

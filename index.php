@@ -5,35 +5,36 @@ require_once "includes-mysite/header.php";
 ?>
 <div class="nav_sections">
    <div class="home_section default" id="home">
-    <a href="index.php"><img src="img/Little Levites.png" width="550px" height="300px"></a>
+    <a href="index.php"><img src="img/Little Levites.png" width="550px" height="300px" 
+    style="display: block; margin-left: auto; margin-right: auto;" ></a>
     <br/> <br/>
         <h1>Welcome to Little Levites</h1>
         <h4 style="font-style:italic";>A training ground for gospel musicians</h4>
-        <br/>
+        <br/>  <br/>  <br/>  
         <a href="signup.php"><button class="button" style="vertical-align:middle"><span>Sign up Today! 
     </span></button></a>
     </div>
     <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
     <hr class="hr-style">
-    <br/><br/><br/>
+    <br/><br/><br/><br/><br/>
  <div class="about_section default" id="about">
 <h1 style="text-align: center;">About Us</h1>
 <p style="text-align: center; font-size:larger;">Little Levites is a music school geared towards training upcoming gospel musicians. 
     <br/> Founded by Andrea Pringle with burden to develop and retain an effective and consistent music ministry within churches   
 </p>
 </div>
-<br/>
+<br/><br/><br/><br/><br/><br/><br/><br/>
 <div class="about_section one" id="mission">    
 <h1 style="text-align: center;"> Mission </h1>
     <p style="text-align: center; font-size:larger;">Teach how to play Piano, Aux Keyboard, Organ, Bass, Drums, Acoustic Guitar and more
 </p>
     </div>
-    <br/>
+    <br/><br/><br/><br/><br/><br/><br/>
     <div class="about_section two" id="vission">
 <h1 style="text-align: center;">Vision </h1>
     <p style="text-align: center; font-size:larger;">To develop skilled gospel muscians for the Kingdom Duties</p>
     </div>
-    <br/><br/><br/><br/><br/><br/><br/>
+    <br/><br/><br/><br/><br/>
     <hr class="hr-style">
     <br/>
    <div class="home_section one" id="about-us">

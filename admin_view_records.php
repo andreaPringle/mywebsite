@@ -45,7 +45,7 @@ $results = $crud->getStudents();
         </tr>
        <?php }?>
        </table>
-   
+   <br/>  <br/>  <br/>  
         <a href="signup.php"><button class="button-2" style="vertical-align:middle"><span>Add a new record
     </span></button></a> 
     <br/> <br/>  

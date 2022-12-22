@@ -11,13 +11,14 @@ body {
   .nav-style {
     overflow: hidden;
     background-color:  #a50044;
+   
   }
   
   .nav-style a {
     float: left;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 18px;
     text-decoration: none;
     font-size: 17px;
   }
@@ -28,7 +29,7 @@ body {
   }
   .nav_section{
     display:inline-flex;
-    padding: 0px 400px;
+    padding: 0px 0px;
     float: right;
   }
   
@@ -58,12 +59,11 @@ body {
       height: 40vh;
       
       text-align: center;
-      margin: 0px 10px;
+      margin: 0px 0px;
   }
   .about_section {
     width: 100vw;
     height: 40vh;
-    margin: 80px 10px;
    
   }
   .home_section default{
@@ -83,7 +83,7 @@ body {
     width: 270px;
     transition: all 0.5s;
     cursor: pointer;
-    margin: 70px;
+    margin-left: auto; margin-right: auto;
   top: 50%;
   left: 50%;
   -ms-transform: translate(-40%, -50%);
@@ -115,7 +115,7 @@ body {
     right: 0;
   }
   .button-2 {
-    display: inline-block;
+    display: block;
     border-radius: 4px;
     background-color: #edbb00;
     border: none;
@@ -126,7 +126,8 @@ body {
     width: 284px;
     transition: all 0.5s;
     cursor: pointer;
-    margin: 70px 570px;
+    margin-left: auto; 
+    margin-right: auto;
   top: 50%;
   left: 50%;
   -ms-transform: translate(-40%, -50%);
@@ -179,9 +180,7 @@ form{
   margin: 15px 5px;
   padding-left: 170px;
 }
-.table{
-  margin: 0px 5px;
-}
+
 /* Clearfix (clear floats) */
 .img-row::after {
   content: "";
