@@ -21,7 +21,7 @@ include_once 'includes-mysite/session.php'?>
   <?php 
               if(!isset($_SESSION["userid"])){
           ?>
-          <a style="font-style: italic;" href="login.php" class="split-2">LOGIN</a>
+          <a style="font-style: italic;" href="login.php" class="split-2">LOGIN</a> &nbsp;
           <a style="font-style: italic; font-weight:bolder;" class="split-1" href="index.php">HOME</a> 
   
   <?php } else { ?>
@@ -32,6 +32,7 @@ include_once 'includes-mysite/session.php'?>
             <a style="font-weight: bolder;  font-style: italic; color: #edbb00;" href="admin_view_records.php">
   Welcome  <?php echo $_SESSION["username"] ?>
          (current)</a>
+         <a style="font-style: italic; font-weight:bolder;" class="split-1" href="admin_view_records.php"> RECORDS</a> &nbsp;
          <a style="font-style: italic; font-weight:bolder;" href="logout.php" class="split-2">LOGOUT </a>
   </div><?php } ?> 
 </div>

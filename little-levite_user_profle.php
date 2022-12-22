@@ -18,11 +18,11 @@ if(isset($_POST["submit"])){
     $orig_file = $_FILES["avatar_pic"]["tmp_name"];
         $ext = pathinfo($_FILES["avatar_pic"]["name"], PATHINFO_EXTENSION);
         $target_dir = "uploads/";
-        $destination = "$target_dir$tel1.$ext";
-        move_uploaded_file($orig_file,$destination);
+        $avatar_pic = "$target_dir$tel1.$ext";
+        move_uploaded_file($orig_file,$avatar_pic);
 
     $isSucess = $crud->insertStudents($FirstName, $LastName, $gender, $age,
-    $inputEmail3, $home_address, $tel1, $tel2, $destination);
+    $inputEmail3, $home_address, $tel1, $tel2, $avatar_pic);
     
     $genderName = $crud->getGenderById($gender);
     if($isSucess){
@@ -34,8 +34,8 @@ if(isset($_POST["submit"])){
   ?> 
   <br/>
   
-  <img src="<?php echo $destination; ?>" class="rounded-circle" 
-  style="display: block; margin-left: auto; margin-right: auto; width: 20%; height: 20% "/>
+  <img src="<?php echo $avatar_pic; ?>" 
+  style="display: block; margin-left: auto; margin-right: auto; width: 20%; height: 20% " alt="Profile Picture"/>
   <div class="center-card"> 
   <div class="card" style="width: 18rem;">
   <div class="card-body">

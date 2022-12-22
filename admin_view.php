@@ -11,28 +11,25 @@ if(!isset($_GET["id"])){
     header("Location: admin_view_records.php");
   } else{
     $id= $_GET["id"];
-    $results= $crud->getStudentDetails($id);
+    $result= $crud->getStudentDetails($id);
   
 ?>
 <br/>
 <img style="display: block; margin-left: auto; margin-right: auto; width: 20%; height: 20%" 
-src="<?php echo empty($result["avatar_pic"]) ? "uploads/blank.png" : $result["avatar_pic"] ; ?>" 
-class="rounded-circle"  />
+src="<?php echo empty($result["avatar_pic"]) ? "uploads/blank.png" : $result["avatar_pic"];?>" alt="Profile Picture" />
 <div class="center-card"> 
 <div class="card" style="width: 20rem;">
   <div class="card-body">
-    <h5 class="card-title"><div style="font-weight:bolder;"><?php echo $results["fname"]; echo" "; echo $results["lname"]; ?></h5>
-    <p class="card-text"> <div style="font-style: italic; font-weight:bold;"> Gender:  <br/> </div> <?php echo $results["name"]; ?></p>
-    <p class="card-text"><div style="font-style: italic; font-weight:bold;">Age:  <br/> </div><?php echo $results["age"]; ?></p>
-    <p class="card-text"> <div style="font-style: italic; font-weight:bold;">Email Address: <br/></div> <?php echo $results["email"]; ?></p>
-    <p class="card-text"> <div style="font-style: italic; font-weight:bold;">Address: <br/>  </div><?php echo $results["address"]; ?></p>
-    <p class="card-text"> <div style="font-style: italic; font-weight:bold;">Contact Number: <br/> </div> <?php echo $results["contact_1"]; echo" | "; echo $results["contact_2"]; ?></p>
+    <h5 class="card-title"><div style="font-weight:bolder;"><?php echo $result["fname"]; echo" "; echo $result["lname"]; ?></h5>
+    <p class="card-text"> <div style="font-style: italic; font-weight:bold;"> Gender:  <br/> </div> <?php echo $result["name"]; ?></p>
+    <p class="card-text"><div style="font-style: italic; font-weight:bold;">Age:  <br/> </div><?php echo $result["age"]; ?></p>
+    <p class="card-text"> <div style="font-style: italic; font-weight:bold;">Email Address: <br/></div> <?php echo $result["email"]; ?></p>
+    <p class="card-text"> <div style="font-style: italic; font-weight:bold;">Address: <br/>  </div><?php echo $result["address"]; ?></p>
+    <p class="card-text"> <div style="font-style: italic; font-weight:bold;">Contact Number: <br/> </div> <?php echo $result["contact_1"]; echo" | "; echo $result["contact_2"]; ?></p>
   </div>
 </div>
-<br/>
-<a href="admin_view_records.php" class= "btn btn-info">Back to list</a>
-<a href="admin_edit.php?id=<?php echo $results["student_id"] ?> " class= "btn btn-warning">Edit</a>
-<a onclick="return confirm('Are you sure you want to delete this record?')" href="admin_delete.php?id=<?php echo $results["student_id"] ?> " class= "btn btn-danger">Delete</a>
-  </div>
+<br/> 
+ 
 <?php }?>
+</div>
 <?php require_once "includes-mysite/footer.php"; ?>
