@@ -5,12 +5,12 @@ class crud{
     function __construct($conn){
         $this->db =$conn;
     }
-    public function insertStudents($FirstName, $LastName, $gender, $age, $pass1, $pass2, $inputEmail3, 
+    public function insertStudents($FirstName, $LastName, $gender, $age, $inputEmail3, 
     $home_address, $tel1, $tel2, $avatar_pic){
         try {
-            $sql = "INSERT INTO `students`(`fname`, `lname`, `gender_id`, `age`, `password`, 
-            `confirm__password`, `email`, `address`, `contact_1`, `contact_2`, `avatar_pic`)
-            VALUES (:FirstName, :LastName, :gender, :age, :pass1, :pass2, :inputEmail3, 
+            $sql = "INSERT INTO `students`(`fname`, `lname`, `gender_id`, `age`,  
+           `email`, `address`, `contact_1`, `contact_2`, `avatar_pic`)
+            VALUES (:FirstName, :LastName, :gender, :age, :inputEmail3, 
             :home_address, :tel1,:tel2, :avatar_pic)";
             $stmt= $this->db->prepare($sql);
 
@@ -19,8 +19,6 @@ class crud{
             $stmt->bindparam(":LastName", $LastName);
             $stmt->bindparam(":gender", $gender);
             $stmt->bindparam(":age", $age);
-            $stmt->bindparam(":pass1", $pass1);
-            $stmt->bindparam(":pass2", $pass2);
             $stmt->bindparam(":inputEmail3", $inputEmail3);
             $stmt->bindparam(":home_address", $home_address);
             $stmt->bindparam(":tel1", $tel1);
@@ -35,10 +33,10 @@ class crud{
             return false;
         }
 }
-public function editStudents($id, $FirstName, $LastName, $gender, $age, $pass1, $pass2, $inputEmail3, $home_address, $tel1, $tel2){
+public function editStudents($id, $FirstName, $LastName, $gender, $age, $inputEmail3, $home_address, $tel1, $tel2){
     try {
         $sql = "UPDATE `students` SET `fname` = :FirstName,  `lname`= :LastName, `gender_id`=:gender, 
-        `age`=:age, `password`=:pass1,`confirm__password`=:pass2, `email`=:inputEmail3, `address`=:home_address, 
+        `age`=:age, `email`=:inputEmail3, `address`=:home_address, 
         `contact_1`=:tel1, `contact_2` =:tel2 WHERE `student_id`= :id ";
         $stmt= $this->db->prepare($sql);
 
@@ -47,8 +45,6 @@ public function editStudents($id, $FirstName, $LastName, $gender, $age, $pass1, 
         $stmt->bindparam(":LastName", $LastName);
         $stmt->bindparam(":gender", $gender);
         $stmt->bindparam(":age", $age);
-        $stmt->bindparam(":pass1", $pass1);
-        $stmt->bindparam(":pass2", $pass2);
         $stmt->bindparam(":inputEmail3", $inputEmail3);
         $stmt->bindparam(":home_address", $home_address);
         $stmt->bindparam(":tel1", $tel1);

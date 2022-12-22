@@ -52,20 +52,6 @@ the registered user. -->
     <input required type="number" class="form-control" id="age" name="age">
   </div>
   </div>
-  <br/> 
-  <div class="form-group row">
-    <label for="pass" class="col-sm-2 col-form-label">Password</label>
-    <div class="col-sm-10">
-      <input required type="password" class="form-control" id="pass1" name="pass1">
-    </div>
-  </div>
-<br/>
-<div class="form-group row">
-    <label for="pass" class="col-sm-2 col-form-label"> Confirm Password</label>
-    <div class="col-sm-10">
-      <input required type="password" class="form-control" id="pass2" name="pass2">
-    </div>
-  </div>
 <br/>
 <div class="form-group row">
     <label for="inputEmail3" class="col-sm-2 col-form-label">Email Address </label>
@@ -92,9 +78,9 @@ the registered user. -->
   </div>
   <br/>
   
-  <div class="input-group mb-3">
-            <input type="file" accept="image/*" class="form-control" id="avatar_pic" name="avatar_pic" >
-            <label class="input-group-text" for="avatar_pic">Choose File</label>
+  <div class="custom-file">
+            <input type="file" accept="image/*" class="custom-file-input" id="avatar_pic" name="avatar_pic" >
+            <label class="custom-file-label" for="avatar_pic">Choose File</label>
             <small id="avatar_pic" class="form-text text-danger"> &nbsp;(Optional)</small>
             </div>
        
