@@ -93,6 +93,7 @@ $students = $crud->getStudentDetails($id);
   </div>
   <br/>
   <a href="admin_view_records.php" class="btn btn-default" > Back to List 
+  
   </a>
   <button type="submit" name="submit" class="btn btn-success" >Save Changes</button>
 </form>
