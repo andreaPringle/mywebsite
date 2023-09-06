@@ -10,17 +10,10 @@
 $title = "Index";
 ?>
 <div class = "nav-contain">
-<a style="font-style: italic; font-weight:bolder;" class="split-3" href=""  >Instructors </a> 
-<a style="font-style: italic; font-weight:bolder;" class="split-3" href=""> Location</a> &nbsp;
-<a style="font-style: italic; font-weight:bolder;"  class="split-3" href="">Mission & Vision</a> &nbsp;
-<a style="font-style: italic; font-weight:bolder;" class="split-3" href="" >About Us</a> &nbsp;
-
-
-
-          
-         
-         
-        
+<a style="font-style: italic; font-weight:bolder;" class="split-3" href="#home_section four"  >Instructors </a> 
+<a style="font-style: italic; font-weight:bolder;" class="split-3" href="#home_section_three"> Location</a> &nbsp;
+<a style="font-style: italic; font-weight:bolder;"  class="split-3" href="#mission">Mission & Vision</a> &nbsp;
+<a style="font-style: italic; font-weight:bolder;" class="split-3" href="#about" >About Us</a> &nbsp;      
   
 </div>
 
@@ -38,30 +31,154 @@ $title = "Index";
     </div>
     <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
     <hr class="hr-style">
-    <br/><br/><br/><br/><br/>
+    <br/><br/><br/><br/><br/><br/>
  <div class="about_section default" id="about">
 <h1 style="text-align: center;">About Us</h1>
 <p style="text-align: center; font-size:larger;">Little Levites is a music school geared towards training upcoming gospel musicians. 
     <br/> Founded by Andrea Pringle with burden to develop and retain an effective and consistent music ministry within churches   
 </p>
+<br/><br/>
+<style>
+* {box-sizing: border-box;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 8s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+</style>
+
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="img/piano-student.jpg" style="width:100%">
+  
 </div>
-<br/><br/><br/><br/><br/><br/><br/><br/>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="img/guitar_student.jpg" style="width:100%">
+ 
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="img/organ-students.jpg" style="width:100%">
+  
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 4</div>
+  <img src="img/drum-student.jpg" style="width:100%">
+  
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+</div>
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+<br/><br>
+<p style="text-align: center; font-style:italic; font-size:larger;">Psalm 150:5 KJV <br/>
+Praise him upon the loud cymbals: praise him upon the high sounding cymbals.</p>
+</div>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 <div class="about_section one" id="mission">    
-<h1 style="text-align: center;"> Mission </h1>
-    <p style="text-align: center; font-size:larger;">Teach how to play Piano, Aux Keyboard, Organ, Bass, Drums, Acoustic Guitar and more
+<h1 style="text-align: center;"> Our Mission </h1>
+    <p style="text-align: center; font-size:larger;">Teaching how to play musical instruments such as the Piano, Saxophone, Organ, Bass, Drums, Acoustic Guitar, and many more!
 </p>
     </div>
-    <br/><br/><br/><br/><br/><br/><br/>
+    <br/><br/>
     <div class="about_section two" id="vission">
-<h1 style="text-align: center;">Vision </h1>
-    <p style="text-align: center; font-size:larger;">To develop skilled gospel muscians for the Kingdom Duties</p>
+<h1 style="text-align: center;">Our Vision </h1>
+    <p style="text-align: center; font-size:larger;">To develop skilled gospel muscians for Kingdom work</p>
     </div>
-    <br/><br/><br/><br/><br/>
+    <p style="text-align: center; font-style:italic; font-size:larger;"> 
+    1 Samuel 16:17-18 KJV <br/>
+And Saul said unto his servants, Provide me now a man that can play well, 
+and bring him to me. Then answered one of the servants, and said, <br/> 
+Behold, I have seen a son of Jesse the Bethlehemite, that is cunning in playing, and a mighty valiant man, 
+and a man of war, <br/>
+and prudent in matters, and a comely person, and the Lord is with him.</p>
+    <br/><br/><br/><br/><br/><br/>
     <hr class="hr-style">
-    <br/>
+    <br/><br/><br/>
    <div class="home_section one" id="about-us">
         <h1>Online Training Sessions</h1>
-        <br/><br/><br/><br/><br/><br/><br/>
+        <br/><br/><br/><br/><br/><br/>
         <div class="style-img-row">
   <div class="style-img-column">
     <img src="img/zoom logo.png"  style="width:60%">
@@ -72,7 +189,7 @@ $title = "Index";
     </div>
     <br/>
     <hr class="hr-style">
-    <br/><br/><br/>
+    <br/><br/><br/><br/><br/><br/>
     <div class="home_section_three" id="home_section_three">
     <h1 style="font-style: italic;">Face To Face Sessions</h1>
    <br/><br/><br/>
@@ -136,7 +253,7 @@ $title = "Index";
     <hr class="hr-style">
     <br/>
    <div class="home_section four" id="home_section four">
-    <h1>Instructors</h1>
+    <h1>Meet our Instructors</h1>
     <br/>
     <div class="img-row">
   <div class="column">
