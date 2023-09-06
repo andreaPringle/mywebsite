@@ -307,4 +307,5 @@ Stop feeling confused and start growing again!"</p>
    <h3 style="text-align: center; font-style:italic; "> <a href="#home" style="color: #edbb00"> Sign up </a> today to learning how to play!</h3>
    <br/><br/><br/>
 <?php require_once "includes-mysite/footer.php"; ?>
+<br/>
    

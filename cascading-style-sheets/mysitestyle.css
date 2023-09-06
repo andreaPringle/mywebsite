@@ -40,22 +40,20 @@ body {
   
   /* Create a right-aligned (split) link inside the navigation bar */
   .nav-style a.split-1 {
+    text-align: center;
     float: right;
-    background-color:#db0030;
-    padding: 15px 32px;
-    border-radius: 55px;
+    padding: 15px 30px;
     font-size: 15px;
-    font-weight:500;
+    font-weight:1000;
     color: white;
   }
   
   .nav-style a.split-2 {
+    text-align: center;
     float: right;
-    background-color:  #004d98;
-    padding: 15px 32px;
-    border-radius: 55px;
+    padding: 15px 30px;
     font-size: 15px;
-    font-weight:500;
+    font-weight:1000;
     color: white;
   }
  

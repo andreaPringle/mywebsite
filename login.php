@@ -43,4 +43,4 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
   <button type="submit" name="submit" class="btn btn-primary w-100" >Submit</button>
   
 </form>
-<?php require_once "includes-mysite/footer.php"; ?>
+
