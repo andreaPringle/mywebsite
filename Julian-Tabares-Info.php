@@ -19,6 +19,10 @@ $title = "Instructor";
 <br/><br/><br/>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-Tp_JAAcIfY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <h2 style="text-align: center;">Praise Break Piano Tutorial #1</h2>
-<br/><br/><br/>
-   
+<br/><br/>
+<p style="text-align: center; font-style:italic; font-size:larger;">2 Chronicles 34:12 KJVs<br/>
+And the men did the work faithfully: and the overseers of them were Jahath and Obadiah, the Levites, of 
+<br/> the sons of Merari; and Zechariah and Meshullam, of the sons of the Kohathites, to set it forward; <br/> and 
+other of the Levites, all that could skill of instruments of musick.</p>
+  <br/><br/><br/>
 <?php require_once "includes-mysite/footer.php"; ?>

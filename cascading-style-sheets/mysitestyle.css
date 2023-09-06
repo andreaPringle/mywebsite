@@ -1,5 +1,5 @@
 body {
-  
+  min-height: 100%;
     font-family: Arial;
     position: relative;
     overflow-x: hidden; 
@@ -266,12 +266,10 @@ iframe{
  margin-top: 5px;
 }
   #foot { 
-    position:fixed;
+    position:relative;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color:black;
-    color: white;
     text-align: center;
    
  }

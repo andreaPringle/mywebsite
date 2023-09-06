@@ -19,6 +19,12 @@ $title = "Instructor";
 <br/><br/><br/>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_E1USnc9FPA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <h2 style="text-align: center;">Learn a beautiful Jaydon Arnold Progression | A Vincent Alexander Special</h2>
-<br/><br/><br/>
+<br/><br/>
+<p style="text-align: center; font-style:italic; font-size:larger;">1 Chronicles 6:31-32 KJV<br/>
+And these are they whom David set over the service of song in the house of the Lord, 
+<br/>after that the ark had rest. And they ministered before the <br/>dwelling place of the tabernacle of the 
+congregation with singing, <br/> until Solomon had built the house of the 
+Lord in Jerusalem: and then <br/> they waited on their office according to their order.</p>
+  <br/><br/><br/>
    
 <?php require_once "includes-mysite/footer.php"; ?>

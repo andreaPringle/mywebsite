@@ -16,11 +16,15 @@ $title = "Instructor";
 <a style="font-style: italic; font-weight:bolder;" class="split-3" href="index.php" >About Us</a> &nbsp;      
   
 </div>
+
+
 <br/><br/><br/>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jEwy-rosnbs" 
     title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
     allowfullscreen></iframe>
 <h2 style="text-align: center;">How To Play Traditional GOSPEL BASS Lines | Teach Me That</h2>
-<br/><br/><br/>
-   
+<br/><br/>
+<p style="text-align: center; font-style:italic; font-size:larger;">2 Kings 3:15 KJV <br/>
+But now bring me a minstrel. And it came to pass, when the minstrel played, that the hand of the Lord came upon him.</p>
+  <br/><br/><br/>
 <?php require_once "includes-mysite/footer.php"; ?>

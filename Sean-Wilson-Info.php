@@ -21,7 +21,10 @@ $title = "Instructor";
     title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
      allowfullscreen></iframe>
 <h2 style="text-align: center;">Cory Henry plays Things of Gold Live Explained! | Ear Training 103 by Sean Wilson</h2>
+<br/><br/>
+
+<p style="text-align: center; font-style:italic; font-size:larger;">Psalm 95:1 KJV <br/>
+O come, let us sing unto the Lord: let us make a joyful noise to the rock of our salvation.</p>
 <br/><br/><br/>
-   
 <?php require_once "includes-mysite/footer.php"; ?>
 

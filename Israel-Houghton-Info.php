@@ -21,6 +21,10 @@ $title = "Instructor";
 <br/><br/><br/>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/FEAy4bKYUJQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <h2 style="text-align: center;">Jesus At the Center (Guitar Tutorial) by Israel Houghton</h2>
-<br/><br/><br/>
+<br/><br/>
+<p style="text-align: center; font-style:italic; font-size:larger;">1 Chronicles 15:16 KJV <br/>
+And David spake to the chief of the Levites to appoint their brethren to be the singers with instruments of musick, psalteries and harps and cymbals, sounding, 
+by lifting up the voice with joy.</p>
+  <br/><br/><br/>
    
 <?php require_once "includes-mysite/footer.php"; ?>
