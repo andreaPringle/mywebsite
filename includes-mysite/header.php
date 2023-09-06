@@ -22,7 +22,7 @@ include_once 'includes-mysite/session.php'?>
               if(!isset($_SESSION["userid"])){
           ?>
           <a style="font-style: italic;" href="login.php" class="split-2">LOGIN</a> &nbsp;
-          <a style="font-style: italic; font-weight:bolder;" class="split-1" href="index.php">HOME</a> 
+          <a style="font-style: italic; font-weight:bolder;" class="split-1" href="admin_index.php">HOME</a> 
   
   <?php } else { ?>
     <div class = "nav_section"> 
