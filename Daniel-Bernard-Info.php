@@ -22,6 +22,11 @@ $title = "Instructor";
      title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
      allowfullscreen></iframe>
 <h2 style="text-align: center;">Gospel Drum Fill #9 // Daniel Bernard</h2>
-<br/><br/><br/>
-   
+<br/><br/>
+<p style="text-align: center; font-style:italic; font-size:larger;">1 Chronicles 15:19-21 KJV <br/>
+So the singers, Heman, Asaph, and Ethan, were appointed to sound with cymbals of brass; And Zechariah, and Aziel, <br/> 
+and Shemiramoth, and Jehiel, and Unni, and Eliab, and Maaseiah, and Benaiah, with psalteries on Alamoth; <br/>
+And Mattithiah, and Elipheleh, and Mikneiah,
+ and Obededom, and Jeiel, and Azaziah, with harps on the Sheminith to excel.</p>
+ <br/><br/><br/>
 <?php require_once "includes-mysite/footer.php"; ?>

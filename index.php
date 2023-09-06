@@ -153,19 +153,25 @@ function showSlides() {
 <p style="text-align: center; font-style:italic; font-size:larger;">Psalm 150:5 KJV <br/>
 Praise him upon the loud cymbals: praise him upon the high sounding cymbals.</p>
 </div>
+  
 <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-<div class="about_section one" id="mission">    
+<img src="img/note1.jpg"; style="text-align: right;">  
+<div class="about_section one" id="mission">
+</p> 
 <h1 style="text-align: center;"> Our Mission </h1>
-    <p style="text-align: center; font-size:larger;">Teaching how to play musical instruments such as the Piano, Saxophone, Organ, Bass, Drums, Acoustic Guitar, and many more!
+    <p style="text-align: center; font-size:larger;">Teaching how to play musical instruments such as the Piano, Saxophone, 
+    <br>Organ, Bass, Drums, Trumpet, Acoustic Guitar, and many more!
 </p>
     </div>
     <br/><br/>
     <div class="about_section two" id="vission">
 <h1 style="text-align: center;">Our Vision </h1>
-    <p style="text-align: center; font-size:larger;">To develop skilled gospel muscians for Kingdom work</p>
+    <p style="text-align: center; font-size:larger;"> To develop skilled gospel muscians for Kingdom work 
+   
     </div>
+    
     <p style="text-align: center; font-style:italic; font-size:larger;"> 
     1 Samuel 16:17-18 KJV <br/>
 And Saul said unto his servants, Provide me now a man that can play well, 
@@ -178,6 +184,8 @@ and prudent in matters, and a comely person, and the Lord is with him.</p>
     <br/><br/><br/>
    <div class="home_section one" id="about-us">
         <h1>Online Training Sessions</h1>
+        <p style="font-size: large;">Online sessions will be held on Zoom and Google meets 
+        </p>
         <br/><br/><br/><br/><br/><br/>
         <div class="style-img-row">
   <div class="style-img-column">
@@ -260,8 +268,8 @@ and prudent in matters, and a comely person, and the Lord is with him.</p>
   
     <a href="Sean-Wilson-Info.php"> <img src="img/sean wilson.jpg" alt="Sean Wilson" style="width:100%"> </a>
     <p style="text-align: center; font-style:italic;">Sean Wilson- PIANO</p>
-    <p style="text-align: center; font-style:italic;">I will teach you to play Gospel Piano like the Pros.
-Stop feeling confused and start growing again!</p>
+    <p style="text-align: center; font-style:italic;">"I will teach you to play Gospel Piano like the Pros.
+Stop feeling confused and start growing again!"</p>
   </div>
   <div class="column">
     <a href="Julian-Tabares-Info.php"><img src="img/Julian-Tabares.jpg" alt="Julian Tabares" style="width:100%"></a>
@@ -294,7 +302,9 @@ Stop feeling confused and start growing again!</p>
   </div>
    </div>
    </div>
-   <br/><br/><br/><br/><br/><br/><br/><br/><br/>
-   
+   <br/><br/><br/><br/><br/>
+   <h3 style="text-align: center;"> What are you waiting for?</h3> 
+   <h3 style="text-align: center; font-style:italic; "> <a href="#home" style="color: #edbb00"> Sign up </a> today to learning how to play!</h3>
+   <br/><br/><br/>
 <?php require_once "includes-mysite/footer.php"; ?>
    
