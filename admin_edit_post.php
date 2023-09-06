@@ -10,15 +10,13 @@ if(isset($_POST["submit"])){
     $LastName= $_POST["LastName"];
     $gender= $_POST["gender"];
     $age= $_POST["age"];
-    $pass1= $_POST["pass1"];
-    $pass2= $_POST["pass2"];
     $inputEmail3= $_POST["inputEmail3"];
     $home_address= $_POST["home_address"];
     $tel1= $_POST["tel1"];
     $tel2= $_POST["tel2"];
 
     //call crud function
-    $result = $crud->editStudents($id, $FirstName, $LastName, $gender, $age, $pass1, $pass2, $inputEmail3, $home_address, $tel1, $tel2);
+    $result = $crud->editStudents($id, $FirstName, $LastName, $gender, $age,  $inputEmail3, $home_address, $tel1, $tel2);
   
     //redirect to index page
     if($result){

@@ -7,7 +7,7 @@ require_once "db/conn_mysite.php";
 $results = $crud->getStudents();
 ?>
 <div class="little-levites-logo-img"> 
-<a href="index.php"><img src="img/Little Levites.png" width="550px" height="300px" ></a>
+<a href="admin_index.php"><img src="img/Little Levites.png" width="550px" height="300px" ></a>
 </div>
 <br/><br/>  <br/> 
 <h1 class="text-center"> List of Students </h1>

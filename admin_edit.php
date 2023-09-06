@@ -16,9 +16,9 @@ $students = $crud->getStudentDetails($id);
 ?>
 <br/>  <br/> 
     <h1 class="text-center">Edit Students Record</h1>
-    <br/>  <br/> 
+    <br/>  
     <div class="little-levites-logo-img"> 
-<a href="index.php"><img src="img/Little Levites.png" width="550px" height="300px" ></a>
+<a href="admin_index.php"><img src="img/Little Levites.png" width="550px" height="300px" ></a>
 </div>
     <br/> <br/>
 <h1 style="text-align: center;"> Sign Up</h1>
@@ -63,22 +63,7 @@ $students = $crud->getStudentDetails($id);
   </div>
   </div>
   <br/> 
-  <div class="form-group row">
-    <label for="pass" class="col-sm-2 col-form-label">Password</label>
-    <div class="col-sm-10">
-      <input required type="password" class="form-control" value="<?php echo $students["password"]?>" 
-      id="pass1" name="pass1">
-    </div>
-  </div>
-<br/>
-<div class="form-group row">
-    <label for="pass" class="col-sm-2 col-form-label"> Confirm Password</label>
-    <div class="col-sm-10">
-      <input required type="password" class="form-control" value="<?php echo $students["confirm_password"]?>" 
-      id="pass2" name="pass2">
-    </div>
-  </div>
-<br/>
+ 
 <div class="form-group row">
     <label for="inputEmail3" class="col-sm-2 col-form-label">Email Address </label>
     <div class="col-sm-10">
@@ -107,7 +92,8 @@ $students = $crud->getStudentDetails($id);
     </div>
   </div>
   <br/>
-  <a href="admin_view_records.php" class="btn btn-default" > Back to List </a>
+  <a href="admin_view_records.php" class="btn btn-default" > Back to List 
+  </a>
   <button type="submit" name="submit" class="btn btn-success" >Save Changes</button>
 </form>
 <?php }?>
